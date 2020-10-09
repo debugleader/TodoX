@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Rock+Salt&display=swap");
+
+$primary: #8000ff;
+$secondary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$hover: #b700ff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #667eea;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header {
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Rock Salt", cursive;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+form button {
+  color: $primary;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background: $hover;
+    color: white;
+  }
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+.filter-todo {
+  padding: 1rem;
+}
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: rgb(255, 55, 0);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.complete-btn {
+  background: rgb(11, 212, 162);
+  transition: all 300ms;
+  &:hover {
+    background: rgb(0, 153, 255);
+  }
+}
+
+.trash-btn {
+  transition: all 300ms;
+  &:hover {
+    background: $hover;
+  }
+}
+
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+.todo-input {
+  width: 40vw;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.completed-right {
+  background: rgb(0, 153, 255);
+}
+
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color: $primary;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+  height: 53px;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: $primary;
+  cursor: pointer;
+  pointer-events: none;
+  transition: all 0.5s;
+}
+.select:hover::after {
+  background: $hover;
+}
+
+@media only screen and (max-width: 650px) {
+  .todo-input {
+    width: 50vw;
+    font-size: 16px;
+    height: 53px;
+  }
+}
