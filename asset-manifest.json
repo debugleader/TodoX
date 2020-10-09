@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/debugleader.github.io/TodoX/static/css/main.d5635a52.chunk.css",
-    "main.js": "/debugleader.github.io/TodoX/static/js/main.15179ada.chunk.js",
-    "main.js.map": "/debugleader.github.io/TodoX/static/js/main.15179ada.chunk.js.map",
-    "runtime-main.js": "/debugleader.github.io/TodoX/static/js/runtime-main.6ffbab8d.js",
-    "runtime-main.js.map": "/debugleader.github.io/TodoX/static/js/runtime-main.6ffbab8d.js.map",
-    "static/css/2.eb43dee1.chunk.css": "/debugleader.github.io/TodoX/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.868c63d3.chunk.js": "/debugleader.github.io/TodoX/static/js/2.868c63d3.chunk.js",
-    "static/js/2.868c63d3.chunk.js.map": "/debugleader.github.io/TodoX/static/js/2.868c63d3.chunk.js.map",
-    "index.html": "/debugleader.github.io/TodoX/index.html",
-    "precache-manifest.a7cff3bf17c729825224bb6c6e6b2497.js": "/debugleader.github.io/TodoX/precache-manifest.a7cff3bf17c729825224bb6c6e6b2497.js",
-    "service-worker.js": "/debugleader.github.io/TodoX/service-worker.js",
-    "static/css/2.eb43dee1.chunk.css.map": "/debugleader.github.io/TodoX/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.d5635a52.chunk.css.map": "/debugleader.github.io/TodoX/static/css/main.d5635a52.chunk.css.map",
-    "static/js/2.868c63d3.chunk.js.LICENSE.txt": "/debugleader.github.io/TodoX/static/js/2.868c63d3.chunk.js.LICENSE.txt"
+    "main.css": "/TodoX/static/css/main.d5635a52.chunk.css",
+    "main.js": "/TodoX/static/js/main.37feb22f.chunk.js",
+    "main.js.map": "/TodoX/static/js/main.37feb22f.chunk.js.map",
+    "runtime-main.js": "/TodoX/static/js/runtime-main.0a353494.js",
+    "runtime-main.js.map": "/TodoX/static/js/runtime-main.0a353494.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/TodoX/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.868c63d3.chunk.js": "/TodoX/static/js/2.868c63d3.chunk.js",
+    "static/js/2.868c63d3.chunk.js.map": "/TodoX/static/js/2.868c63d3.chunk.js.map",
+    "index.html": "/TodoX/index.html",
+    "precache-manifest.9d97e82e4541d7cd3d1ba2054b9bc849.js": "/TodoX/precache-manifest.9d97e82e4541d7cd3d1ba2054b9bc849.js",
+    "service-worker.js": "/TodoX/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/TodoX/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.d5635a52.chunk.css.map": "/TodoX/static/css/main.d5635a52.chunk.css.map",
+    "static/js/2.868c63d3.chunk.js.LICENSE.txt": "/TodoX/static/js/2.868c63d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ffbab8d.js",
+    "static/js/runtime-main.0a353494.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.868c63d3.chunk.js",
     "static/css/main.d5635a52.chunk.css",
-    "static/js/main.15179ada.chunk.js"
+    "static/js/main.37feb22f.chunk.js"
   ]
 }
