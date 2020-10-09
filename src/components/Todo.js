@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 export default function Todo({ todo, todos, setTodos, usefulId }) {
   const deleteHandler = (e) => {
@@ -22,10 +22,10 @@ export default function Todo({ todo, todos, setTodos, usefulId }) {
     );
   };
 
-  useEffect(() => {
-    AOS.init();
-    // AOS.refresh();
-  }, []);
+  // useEffect(() => {
+  // AOS.init();
+  // AOS.refresh();
+  // }, []);
   // const todoId = document.getElementById(usefulId);
   // if (todoId) {
   //   todoId.setAttribute("data-aos", "zoom-in-up");
@@ -37,9 +37,9 @@ export default function Todo({ todo, todos, setTodos, usefulId }) {
       className={`todo todoId ${todo.completed ? "completed" : ""}`}
       style={{ marginBottom: 20, borderRadius: 3 }}
       id={usefulId}
-      data-aos="zoom-in-up"
-      data-aos-mirror="true"
-      data-aos-offset="10"
+      // data-aos="zoom-in-up"
+      // data-aos-mirror="true"
+      // data-aos-offset="10"
     >
       <li className="todo-item">{todo.text}</li>
       <button
